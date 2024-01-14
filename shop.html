@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/png"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Kpop Merchandise</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="row container d-flex">
+          <div class="logo"><a href="index.html">
+            <img src="./images/logoshop.PNG" alt=""  width="80" height="80" /></a>
+          </div>
+
+          <div class="nav-list d-flex">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About Us</a>
+            <a href="index.html#section">Testimonies</a>
+            <a href="index.html#section2">News</a>
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+            <a class="user-link">Login</a>
+          </div>
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-right"></i>
+          </div>
+        </div>
+      </nav>
+
+      
+    <section class="section collection">
+      <div class="title">
+        <span>COLLECTION</span>
+        <h2>Categories</h2>
+      </div>
+      <div class="filters d-flex">
+        <div data-filter="Photocard">Photocard</div>
+        <div data-filter="Album">Album</div>
+        <div data-filter="Figure">Figure</div>
+        <div data-filter="Merchandise">Merchandise</div>
+      </div>
+
+      <div class="products container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="products">
+            <div class="swiper-slide">
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <div class="custom-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section categories">
+      <div class="title">
+        <span>All Items</span>
+        <h2>All</h2>
+      </div>
+
+      <div class="products container">
+      </div>
+
+      <div class="button d-flex">
+        <a class="btn loadmore">Load More</a>
+      </div>
+    </section>
+
+    <iframe src="footer.html" frameborder="0" width="100%" height="425rem" scrolling="no"></iframe>
+
+    
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./js/product.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
