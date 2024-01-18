@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 
 :root {
-  --primary-color: #ff5e3a;
+  --primary-color: #bda3eb;
   --default-color: #4f5665;
   --black-color: #000;
   --grey-color: #f0f0f0;
@@ -16,8 +16,8 @@
   --lightblue: #ccccff;
   --box-shadow-1: 0 5px 15px rgba(0, 0, 0, 0.1);
   --box-shadow-2: 0 5px 15px rgba(255, 94, 58, 0.2);
-  --gradient: linear-gradient(to bottom, #fccb90, #ff9a9e);
-  --btn-gradient: linear-gradient(to bottom, #ff5151 50%, #ff5e3a);
+  --gradient: linear-gradient(to bottom, #bda3eb, #a8c6ff);
+  --btn-gradient: linear-gradient(to bottom, #a374f5 50%, #b796ebf1);
 }
 
 *,
@@ -573,8 +573,8 @@ img {
   padding: 10rem 0 10rem;
   background: linear-gradient(
     to bottom,
-    rgba(252, 203, 144, 0.15),
-    rgba(255, 185, 188, 0.1)
+    rgba(219, 201, 249, 1), 
+    rgba(169, 196, 254, 255)
   );
 }
 
@@ -694,7 +694,7 @@ img {
 }
 
 .footer {
-  background-color: rgba(252, 203, 144, 0.15);
+  background-color: rgba(219, 201, 249, 1);
   padding: 10rem 3rem 10rem;
 }
 
